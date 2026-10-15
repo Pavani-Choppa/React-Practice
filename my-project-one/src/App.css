@@ -1,0 +1,32 @@
+
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
+
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Full screen height */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Increment button */
+button {
+    background-color: yellow;
+    color: black;
+    border: 1px solid yellow;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Counter value */
+p {
+    color: yellow;
+    font-size: 24px;
+}
